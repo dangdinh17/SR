@@ -1,7 +1,22 @@
 import torch
 import torch.nn as nn
-import math
+import cv2
 import numpy as np
+class ResidualCatBlock(nn.Module):
+    def __init__(self, num_channels):
+        super(ResidualCatBlock, self).__init__()
+        self.block = nn.Sequential(
+            nn.Conv2d(num_channels, num_channels, kernel_size=3, stride=1, padding=1),
+            nn.ReLU(),
+            nn.Conv2d(num_channels, num_channels, kernel_size=3, stride=1, padding=1)
+        )
+        self.conv = nn.Conv2d(num_channels*2, num_channels, kernel_size = 1, stride = 1)
+        
+    def forward(self, x):
+        out = self.block(x)
+        out = torch.cat((x, out), 1)
+        out = self.conv(out)
+        return x + out
 class CannyFilterOpenCV(nn.Module):
     def __init__(self, low_threshold=100, high_threshold=200):
         super(CannyFilterOpenCV, self).__init__()
@@ -42,29 +57,10 @@ class SobelFilterOpenCV(nn.Module):
 
     def get_output_channels(self, input_channels):
         return input_channels  # Sobel filter giữ nguyên số kênh đầu vào
-
-class ResidualCatBlock(nn.Module):
-    def __init__(self, num_channels=64):
-        super(ResidualCatBlock, self).__init__()
-        self.block = nn.Sequential(
-            nn.Conv2d(num_channels, num_channels, kernel_size=3, stride=1, padding=1),
-            nn.ReLU(),
-            nn.Conv2d(num_channels, num_channels, kernel_size=3, stride=1, padding=1)
-        )
-        self.conv = nn.Conv2d(num_channels*2, num_channels, kernel_size = 1, stride = 1)
-        
-    def forward(self, x):
-        out = self.block(x)
-        out = torch.cat((x, out), 1)
-        out = self.conv(out)
-        return x + out
-
-
-class EDRN(nn.Module):
-    def __init__(self, num_channels = 3, use_canny=False, use_sobel=False):
-        super(EDRN, self).__init__()
-
-        rgb_mean = (0.4488, 0.4371, 0.4040)
+class HQSR(nn.Module):
+    def __init__(self, num_channels=3, scale_factor=4, use_canny=False, use_sobel=False):
+        super(HQSR, self).__init__()
+        self.scale_factor = scale_factor
         self.use_canny = use_canny
         self.use_sobel = use_sobel
         
@@ -77,47 +73,29 @@ class EDRN(nn.Module):
             additional_channels = 3
         self.input_conv = nn.Conv2d(num_channels+additional_channels, 64, kernel_size=3, stride=1, padding=1)
         
-        self.conv_input = nn.Conv2d(in_channels=3, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
-
-        self.residual = self.make_layer(ResidualCatBlock, 16)
-
-        self.conv_mid = nn.Conv2d(in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
-
-        self.upscale4x = nn.Sequential(
-            nn.Conv2d(in_channels=64, out_channels=64*4, kernel_size=3, stride=1, padding=1, bias=False),
-            nn.PixelShuffle(2),
-            nn.Conv2d(in_channels=64, out_channels=64*4, kernel_size=3, stride=1, padding=1, bias=False),
-            nn.PixelShuffle(2),
+        self.residual_layers = nn.Sequential(
+            *[ResidualCatBlock(64) for _ in range(16)]
         )
-
-        self.conv_output = nn.Conv2d(in_channels=64, out_channels=3, kernel_size=3, stride=1, padding=1, bias=False)
-
-
-        for m in self.modules():
-            if isinstance(m, nn.Conv2d):
-                n = m.kernel_size[0] * m.kernel_size[1] * m.out_channels
-                m.weight.data.normal_(0, math.sqrt(2. / n))
-                if m.bias is not None:
-                    m.bias.data.zero_()
-            elif isinstance(m, nn.BatchNorm2d):
-                m.weight.data.fill_(1)
-                if m.bias is not None:
-                    m.bias.data.zero_()
-
-    def make_layer(self, block, num_of_layer):
-        layers = []
-        for _ in range(num_of_layer):
-            layers.append(block())
-        return nn.Sequential(*layers)
-
-    def forward(self, x):
-        out = x
-        out = self.conv_input(out)
-        residual = out
-        out = self.conv_mid(self.residual(out))
-        out = torch.add(out,residual)
-        out = self.upscale4x(out)
-        out = self.conv_output(out)
+        self.upsample = nn.Sequential(
+            nn.Conv2d(64, 64*scale_factor**2, kernel_size=3, stride=1, padding=1),
+            nn.PixelShuffle(scale_factor),
+            nn.Conv2d(64, num_channels, kernel_size=3, stride=1, padding=1)
+        )
         
+    def forward(self, x):
+        edge_maps = []
+        if self.use_canny:
+            edge_maps.append(self.canny_filter(x)) # type: ignore
+        if self.use_sobel:
+            edge_maps.append(self.sobel_filter(x)) # type: ignore
+        
+        if edge_maps:
+            x_with_edges = torch.cat([x] + edge_maps, dim=1)
+        else:
+            x_with_edges = x
+        
+        x = self.input_conv(x_with_edges)
+        res = self.residual_layers(x)
+        out = res + x
+        out = self.upsample(out)
         return out
-
