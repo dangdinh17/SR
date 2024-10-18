@@ -29,7 +29,7 @@ class _Residual_Block(nn.Module):
         return output 
 
 class EDSR(nn.Module):
-    def __init__(self):
+    def __init__(self, scale=4):
         super(EDSR, self).__init__()
 
         rgb_mean = (0.4488, 0.4371, 0.4040)
@@ -41,13 +41,18 @@ class EDSR(nn.Module):
 
         self.conv_mid = nn.Conv2d(in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
 
-        self.upscale4x = nn.Sequential(
-            nn.Conv2d(in_channels=64, out_channels=64*4, kernel_size=3, stride=1, padding=1, bias=False),
-            nn.PixelShuffle(2),
-            nn.Conv2d(in_channels=64, out_channels=64*4, kernel_size=3, stride=1, padding=1, bias=False),
-            nn.PixelShuffle(2),
-        )
-
+        if scale == 4:
+            self.upscale = nn.Sequential(
+                nn.Conv2d(in_channels=64, out_channels=64*4, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(2),
+                nn.Conv2d(in_channels=64, out_channels=64*4, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(2),
+            )
+        else:
+            self.upscale = nn.Sequential(
+                nn.Conv2d(in_channels=64, out_channels=64*scale**2, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(scale),
+            )
         self.conv_output = nn.Conv2d(in_channels=64, out_channels=3, kernel_size=3, stride=1, padding=1, bias=False)
 
         self.add_mean = MeanShift(rgb_mean, 1)
@@ -75,7 +80,7 @@ class EDSR(nn.Module):
         residual = out
         out = self.conv_mid(self.residual(out))
         out = torch.add(out,residual)
-        out = self.upscale4x(out)
+        out = self.upscale(out)
         out = self.conv_output(out)
         
         return out

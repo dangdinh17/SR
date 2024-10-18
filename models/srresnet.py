@@ -34,7 +34,7 @@ class _Residual_Block(nn.Module):
         return output 
 
 class SRResNet(nn.Module):
-    def __init__(self,in_channels = 3,out_channels = 3,bn = True):
+    def __init__(self,in_channels = 3,out_channels = 3,bn = True, scale=4):
         """
         in and out channel = io_channels;RGB mode io_channels =3 ,Y channel io_channels = 1
         """
@@ -50,17 +50,25 @@ class SRResNet(nn.Module):
         self.conv_mid = nn.Conv2d(in_channels=64, out_channels=64, kernel_size=3, stride=1, padding=1, bias=False)
         if self.bn:
             self.bn_mid = nn.BatchNorm2d(64)
-
-        self.upscale4x = nn.Sequential(
-            nn.Conv2d(in_channels=64, out_channels=256, kernel_size=3, stride=1, padding=1, bias=False),
-            nn.PixelShuffle(2),
-            #nn.LeakyReLU(0.2, inplace=True),
-            nn.PReLU(num_parameters=1,init=0.2),
-            nn.Conv2d(in_channels=64, out_channels=256, kernel_size=3, stride=1, padding=1, bias=False),
-            nn.PixelShuffle(2),
-            #nn.LeakyReLU(0.2, inplace=True),
-            nn.PReLU(num_parameters=1,init=0.2),
-        )
+        if scale == 4:
+            self.upscale = nn.Sequential(
+                nn.Conv2d(in_channels=64, out_channels=256, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(2),
+                #nn.LeakyReLU(0.2, inplace=True),
+                nn.PReLU(num_parameters=1,init=0.2),
+                nn.Conv2d(in_channels=64, out_channels=256, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(2),
+                #nn.LeakyReLU(0.2, inplace=True),
+                nn.PReLU(num_parameters=1,init=0.2),
+            )
+        else:
+            self.upscale = nn.Sequential(
+                nn.Conv2d(in_channels=64, out_channels=64*scale**2, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(2),
+                #nn.LeakyReLU(0.2, inplace=True),
+                nn.PReLU(num_parameters=1,init=0.2),
+                
+            )
 
         self.conv_output = nn.Conv2d(in_channels=64, out_channels = out_channels, kernel_size=9, stride=1, padding=4, bias=False)
         
@@ -91,7 +99,7 @@ class SRResNet(nn.Module):
         if self.bn:
             out = self.bn_mid(out)
         out = torch.add(out,out1)
-        out = self.upscale4x(out)
+        out = self.upscale(out)
         out = self.conv_output(out)
         return out
     
