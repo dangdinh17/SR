@@ -27,7 +27,7 @@ class E2DSR(nn.Module):
             nn.Conv2d(64, 64*scale_factor**2, kernel_size=3, stride=1, padding=1),
             nn.PixelShuffle(scale_factor)
         )
-        self.edgelayer = HQNet(self.edgechannel)
+        self.edgelayer = HQNet(self.edgechannel, self.scale_factor)
         self.out = nn.Conv2d(64, num_channels, kernel_size=3, stride=1, padding=1)
         
     
@@ -60,18 +60,18 @@ class ResidualBlock(nn.Module):
 
 ##########################################EdgeFeatureEnhancementBlock##########################################
 class HQNet(nn.Module):
-    def __init__(self, num_channels):
+    def __init__(self, num_channels, scale):
         
         super(HQNet, self).__init__()
         self.path1 = nn.Sequential(
-            nn.Upsample(size=None, scale_factor=4, mode='nearest', align_corners=None, recompute_scale_factor=None),
+            nn.Upsample(size=None, scale_factor=scale, mode='nearest', align_corners=None, recompute_scale_factor=None),
             nn.BatchNorm2d(num_channels),
             nn.SELU(),
             nn.Conv2d(num_channels, 64, kernel_size=3, stride=1, padding=1)
         )
         self.path2 = nn.Sequential(
             nn.Conv2d(num_channels, 64, kernel_size=3, stride=1, padding=1),
-            nn.Upsample(size=None, scale_factor=4, mode='bicubic', align_corners=None, recompute_scale_factor=None)
+            nn.Upsample(size=None, scale_factor=scale, mode='bicubic', align_corners=None, recompute_scale_factor=None)
         )
         self.out = nn.Sequential(
             nn.BatchNorm2d(64),
