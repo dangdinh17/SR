@@ -1,0 +1,296 @@
+Epoch 1:  e2dsr_canny PSNR: 0.0000, Validation PSNR: 4.9286
+              e2dsr_sobel PSNR: 0.0000, Validation PSNR: 4.2623
+Epoch 1:  e2dsr_canny PSNR: 29.7930, Validation PSNR: 32.6083
+              e2dsr_sobel PSNR: 29.7880, Validation PSNR: 32.7399
+Epoch 2:  e2dsr_canny PSNR: 31.1480, Validation PSNR: 33.0030
+              e2dsr_sobel PSNR: 31.1398, Validation PSNR: 33.2467
+Epoch 3:  e2dsr_canny PSNR: 31.4118, Validation PSNR: 33.6138
+              e2dsr_sobel PSNR: 31.4052, Validation PSNR: 33.6594
+Epoch 4:  e2dsr_canny PSNR: 31.5622, Validation PSNR: 33.7247
+              e2dsr_sobel PSNR: 31.5508, Validation PSNR: 33.7754
+Epoch 5:  e2dsr_canny PSNR: 31.6492, Validation PSNR: 33.8445
+              e2dsr_sobel PSNR: 31.6413, Validation PSNR: 33.7247
+Epoch 6:  e2dsr_canny PSNR: 31.7194, Validation PSNR: 33.9540
+              e2dsr_sobel PSNR: 31.7177, Validation PSNR: 33.9774
+Epoch 7:  e2dsr_canny PSNR: 31.7746, Validation PSNR: 34.0026
+              e2dsr_sobel PSNR: 31.7726, Validation PSNR: 33.8462
+Epoch 8:  e2dsr_canny PSNR: 31.8256, Validation PSNR: 33.1997
+              e2dsr_sobel PSNR: 31.8255, Validation PSNR: 34.0372
+Epoch 9:  e2dsr_canny PSNR: 31.9457, Validation PSNR: 34.0982
+              e2dsr_sobel PSNR: 31.9463, Validation PSNR: 34.1154
+Epoch 10:  e2dsr_canny PSNR: 31.9633, Validation PSNR: 34.1608
+              e2dsr_sobel PSNR: 31.9660, Validation PSNR: 34.1373
+Epoch 11:  e2dsr_canny PSNR: 31.9899, Validation PSNR: 34.1395
+              e2dsr_sobel PSNR: 31.9918, Validation PSNR: 34.1589
+Epoch 12:  e2dsr_canny PSNR: 32.0112, Validation PSNR: 34.1394
+              e2dsr_sobel PSNR: 32.0141, Validation PSNR: 34.0856
+Epoch 13:  e2dsr_canny PSNR: 32.0228, Validation PSNR: 34.1861
+              e2dsr_sobel PSNR: 32.0269, Validation PSNR: 34.1851
+Epoch 14:  e2dsr_canny PSNR: 32.0372, Validation PSNR: 34.1908
+              e2dsr_sobel PSNR: 32.0413, Validation PSNR: 34.1769
+Epoch 15:  e2dsr_canny PSNR: 32.0649, Validation PSNR: 34.2050
+              e2dsr_sobel PSNR: 32.0678, Validation PSNR: 34.2014
+Epoch 16:  e2dsr_canny PSNR: 32.0733, Validation PSNR: 34.1812
+              e2dsr_sobel PSNR: 32.0762, Validation PSNR: 34.1588
+Epoch 17:  e2dsr_canny PSNR: 32.1318, Validation PSNR: 34.2018
+              e2dsr_sobel PSNR: 32.1373, Validation PSNR: 34.2289
+Epoch 18:  e2dsr_canny PSNR: 32.1434, Validation PSNR: 34.2334
+              e2dsr_sobel PSNR: 32.1489, Validation PSNR: 34.2391
+Epoch 19:  e2dsr_canny PSNR: 32.1410, Validation PSNR: 34.2376
+              e2dsr_sobel PSNR: 32.1473, Validation PSNR: 34.2540
+Epoch 20:  e2dsr_canny PSNR: 32.1555, Validation PSNR: 34.2044
+              e2dsr_sobel PSNR: 32.1620, Validation PSNR: 34.2245
+Epoch 21:  e2dsr_canny PSNR: 32.1581, Validation PSNR: 34.2077
+              e2dsr_sobel PSNR: 32.1651, Validation PSNR: 34.2249
+Epoch 22:  e2dsr_canny PSNR: 32.1710, Validation PSNR: 34.2308
+              e2dsr_sobel PSNR: 32.1775, Validation PSNR: 34.2330
+Epoch 23:  e2dsr_canny PSNR: 32.1722, Validation PSNR: 34.2380
+              e2dsr_sobel PSNR: 32.1794, Validation PSNR: 34.2435
+Epoch 24:  e2dsr_canny PSNR: 32.1782, Validation PSNR: 34.2226
+              e2dsr_sobel PSNR: 32.1848, Validation PSNR: 34.2290
+Epoch 1:  e2dsr_canny PSNR: 26.9248, Validation PSNR: 28.4487
+              e2dsr_sobel PSNR: 26.8980, Validation PSNR: 28.8325
+Epoch 2:  e2dsr_canny PSNR: 27.8038, Validation PSNR: 29.1224
+              e2dsr_sobel PSNR: 27.8038, Validation PSNR: 29.1134
+Epoch 3:  e2dsr_canny PSNR: 28.0064, Validation PSNR: 29.4782
+              e2dsr_sobel PSNR: 28.0029, Validation PSNR: 29.3883
+Epoch 4:  e2dsr_canny PSNR: 28.1165, Validation PSNR: 29.5750
+              e2dsr_sobel PSNR: 28.1112, Validation PSNR: 29.5199
+Epoch 5:  e2dsr_canny PSNR: 28.1824, Validation PSNR: 29.6133
+              e2dsr_sobel PSNR: 28.1788, Validation PSNR: 29.5782
+Epoch 6:  e2dsr_canny PSNR: 28.2358, Validation PSNR: 29.6590
+              e2dsr_sobel PSNR: 28.2306, Validation PSNR: 29.7138
+Epoch 7:  e2dsr_canny PSNR: 28.2814, Validation PSNR: 29.6429
+              e2dsr_sobel PSNR: 28.2793, Validation PSNR: 29.6706
+Epoch 8:  e2dsr_canny PSNR: 28.3050, Validation PSNR: 29.5094
+              e2dsr_sobel PSNR: 28.3017, Validation PSNR: 29.7233
+Epoch 9:  e2dsr_canny PSNR: 28.4040, Validation PSNR: 29.8649
+              e2dsr_sobel PSNR: 28.4019, Validation PSNR: 29.8863
+Epoch 10:  e2dsr_canny PSNR: 28.4340, Validation PSNR: 29.8911
+              e2dsr_sobel PSNR: 28.4309, Validation PSNR: 29.9055
+Epoch 11:  e2dsr_canny PSNR: 28.4509, Validation PSNR: 29.9091
+              e2dsr_sobel PSNR: 28.4480, Validation PSNR: 29.8920
+Epoch 12:  e2dsr_canny PSNR: 28.4650, Validation PSNR: 29.8868
+              e2dsr_sobel PSNR: 28.4627, Validation PSNR: 29.8741
+Epoch 13:  e2dsr_canny PSNR: 28.4828, Validation PSNR: 29.9035
+              e2dsr_sobel PSNR: 28.4816, Validation PSNR: 29.8848
+Epoch 14:  e2dsr_canny PSNR: 28.4925, Validation PSNR: 29.9201
+              e2dsr_sobel PSNR: 28.4901, Validation PSNR: 29.8918
+Epoch 15:  e2dsr_canny PSNR: 28.5054, Validation PSNR: 29.9286
+              e2dsr_sobel PSNR: 28.5027, Validation PSNR: 29.9253
+Epoch 16:  e2dsr_canny PSNR: 28.5250, Validation PSNR: 29.9094
+              e2dsr_sobel PSNR: 28.5224, Validation PSNR: 29.9096
+Epoch 17:  e2dsr_canny PSNR: 28.5575, Validation PSNR: 29.9241
+              e2dsr_sobel PSNR: 28.5556, Validation PSNR: 29.9533
+Epoch 18:  e2dsr_canny PSNR: 28.5730, Validation PSNR: 29.9793
+              e2dsr_sobel PSNR: 28.5712, Validation PSNR: 29.9690
+Epoch 19:  e2dsr_canny PSNR: 28.5885, Validation PSNR: 29.9423
+              e2dsr_sobel PSNR: 28.5862, Validation PSNR: 29.9414
+Epoch 20:  e2dsr_canny PSNR: 28.5882, Validation PSNR: 29.9645
+              e2dsr_sobel PSNR: 28.5863, Validation PSNR: 29.9674
+Epoch 21:  e2dsr_canny PSNR: 28.5951, Validation PSNR: 29.9551
+              e2dsr_sobel PSNR: 28.5930, Validation PSNR: 29.9414
+Epoch 22:  e2dsr_canny PSNR: 28.6105, Validation PSNR: 29.9608
+              e2dsr_sobel PSNR: 28.6086, Validation PSNR: 29.9528
+Epoch 23:  e2dsr_canny PSNR: 28.6105, Validation PSNR: 29.9467
+              e2dsr_sobel PSNR: 28.6086, Validation PSNR: 29.9578
+Epoch 24:  e2dsr_canny PSNR: 28.6099, Validation PSNR: 29.9519
+              e2dsr_sobel PSNR: 28.6081, Validation PSNR: 29.9468
+Epoch 1:  e2dsr_canny PSNR: 25.3995, Validation PSNR: 26.7618
+              e2dsr_sobel PSNR: 25.4324, Validation PSNR: 26.8130
+Epoch 2:  e2dsr_canny PSNR: 26.1388, Validation PSNR: 27.0005
+              e2dsr_sobel PSNR: 26.1535, Validation PSNR: 27.0188
+Epoch 3:  e2dsr_canny PSNR: 26.2848, Validation PSNR: 27.2888
+              e2dsr_sobel PSNR: 26.2916, Validation PSNR: 27.2783
+Epoch 4:  e2dsr_canny PSNR: 26.3848, Validation PSNR: 27.3610
+              e2dsr_sobel PSNR: 26.3860, Validation PSNR: 27.3619
+Epoch 5:  e2dsr_canny PSNR: 26.4415, Validation PSNR: 27.4365
+              e2dsr_sobel PSNR: 26.4428, Validation PSNR: 27.4191
+Epoch 6:  e2dsr_canny PSNR: 26.4771, Validation PSNR: 27.4690
+              e2dsr_sobel PSNR: 26.4784, Validation PSNR: 27.4699
+Epoch 7:  e2dsr_canny PSNR: 26.5138, Validation PSNR: 27.4667
+              e2dsr_sobel PSNR: 26.5142, Validation PSNR: 27.4484
+Epoch 8:  e2dsr_canny PSNR: 26.5535, Validation PSNR: 27.5051
+              e2dsr_sobel PSNR: 26.5523, Validation PSNR: 27.4972
+Epoch 9:  e2dsr_canny PSNR: 26.6340, Validation PSNR: 27.5890
+              e2dsr_sobel PSNR: 26.6325, Validation PSNR: 27.5874
+Epoch 10:  e2dsr_canny PSNR: 26.6582, Validation PSNR: 27.5621
+              e2dsr_sobel PSNR: 26.6555, Validation PSNR: 27.5614
+Epoch 11:  e2dsr_canny PSNR: 26.6798, Validation PSNR: 27.5502
+              e2dsr_sobel PSNR: 26.6773, Validation PSNR: 27.5861
+Epoch 12:  e2dsr_canny PSNR: 26.6952, Validation PSNR: 27.5880
+              e2dsr_sobel PSNR: 26.6917, Validation PSNR: 27.5914
+Epoch 13:  e2dsr_canny PSNR: 26.7045, Validation PSNR: 27.5458
+              e2dsr_sobel PSNR: 26.7004, Validation PSNR: 27.5820
+Epoch 14:  e2dsr_canny PSNR: 26.7121, Validation PSNR: 27.5565
+              e2dsr_sobel PSNR: 26.7079, Validation PSNR: 27.5900
+Epoch 15:  e2dsr_canny PSNR: 26.7177, Validation PSNR: 27.5747
+              e2dsr_sobel PSNR: 26.7138, Validation PSNR: 27.5908
+Epoch 16:  e2dsr_canny PSNR: 26.7456, Validation PSNR: 27.5704
+              e2dsr_sobel PSNR: 26.7408, Validation PSNR: 27.5962
+Epoch 17:  e2dsr_canny PSNR: 26.7844, Validation PSNR: 27.5800
+              e2dsr_sobel PSNR: 26.7798, Validation PSNR: 27.6086
+Epoch 18:  e2dsr_canny PSNR: 26.7967, Validation PSNR: 27.5844
+              e2dsr_sobel PSNR: 26.7922, Validation PSNR: 27.5567
+Epoch 19:  e2dsr_canny PSNR: 26.8050, Validation PSNR: 27.5876
+              e2dsr_sobel PSNR: 26.8005, Validation PSNR: 27.6093
+Epoch 20:  e2dsr_canny PSNR: 26.8091, Validation PSNR: 27.6064
+              e2dsr_sobel PSNR: 26.8046, Validation PSNR: 27.6139
+Epoch 21:  e2dsr_canny PSNR: 26.8053, Validation PSNR: 27.5869
+              e2dsr_sobel PSNR: 26.8008, Validation PSNR: 27.6293
+Epoch 22:  e2dsr_canny PSNR: 26.8121, Validation PSNR: 27.5918
+              e2dsr_sobel PSNR: 26.8071, Validation PSNR: 27.6047
+Epoch 23:  e2dsr_canny PSNR: 26.8318, Validation PSNR: 27.5807
+              e2dsr_sobel PSNR: 26.8267, Validation PSNR: 27.6120
+Epoch 24:  e2dsr_canny PSNR: 26.8282, Validation PSNR: 27.5747
+              e2dsr_sobel PSNR: 26.8227, Validation PSNR: 27.6039
+Epoch 1:  e2dsr_canny PSNR: 0.0000, Validation PSNR: 3.6411
+              e2dsr_sobel PSNR: 0.0000, Validation PSNR: 5.0031
+Epoch 1:  e2dsr_canny PSNR: 0.0000, Validation PSNR: 5.3238
+              e2dsr_sobel PSNR: 0.0000, Validation PSNR: 5.2778
+Epoch 1:  e2dsr_canny PSNR: 0.0000, Validation PSNR: 4.1238
+              e2dsr_sobel PSNR: 0.0000, Validation PSNR: 5.6359
+Epoch 1:  e2dsr_canny PSNR: 29.8446, Validation PSNR: 32.6535
+              e2dsr_sobel PSNR: 29.7367, Validation PSNR: 32.6502
+Epoch 2:  e2dsr_canny PSNR: 31.1359, Validation PSNR: 33.0917
+              e2dsr_sobel PSNR: 31.1480, Validation PSNR: 33.2440
+Epoch 3:  e2dsr_canny PSNR: 31.3989, Validation PSNR: 33.6179
+              e2dsr_sobel PSNR: 31.4126, Validation PSNR: 33.5880
+Epoch 4:  e2dsr_canny PSNR: 31.5522, Validation PSNR: 33.8210
+              e2dsr_sobel PSNR: 31.5531, Validation PSNR: 33.8147
+Epoch 5:  e2dsr_canny PSNR: 31.6512, Validation PSNR: 33.8474
+              e2dsr_sobel PSNR: 31.6523, Validation PSNR: 33.9074
+Epoch 6:  e2dsr_canny PSNR: 31.7115, Validation PSNR: 33.9238
+              e2dsr_sobel PSNR: 31.7132, Validation PSNR: 33.9167
+Epoch 7:  e2dsr_canny PSNR: 31.7716, Validation PSNR: 33.8416
+              e2dsr_sobel PSNR: 31.7699, Validation PSNR: 33.8423
+Epoch 8:  e2dsr_canny PSNR: 31.8213, Validation PSNR: 33.8803
+              e2dsr_sobel PSNR: 31.8220, Validation PSNR: 33.9926
+Epoch 9:  e2dsr_canny PSNR: 31.9404, Validation PSNR: 34.1280
+              e2dsr_sobel PSNR: 31.9395, Validation PSNR: 34.1349
+Epoch 10:  e2dsr_canny PSNR: 31.9811, Validation PSNR: 34.1538
+              e2dsr_sobel PSNR: 31.9809, Validation PSNR: 34.1686
+Epoch 11:  e2dsr_canny PSNR: 31.9886, Validation PSNR: 34.1497
+              e2dsr_sobel PSNR: 31.9883, Validation PSNR: 34.1538
+Epoch 12:  e2dsr_canny PSNR: 31.9982, Validation PSNR: 34.1540
+              e2dsr_sobel PSNR: 31.9977, Validation PSNR: 34.1673
+Epoch 13:  e2dsr_canny PSNR: 32.0283, Validation PSNR: 34.1773
+              e2dsr_sobel PSNR: 32.0302, Validation PSNR: 34.1862
+Epoch 14:  e2dsr_canny PSNR: 32.0477, Validation PSNR: 34.2004
+              e2dsr_sobel PSNR: 32.0496, Validation PSNR: 34.2103
+Epoch 15:  e2dsr_canny PSNR: 32.0576, Validation PSNR: 34.2044
+              e2dsr_sobel PSNR: 32.0591, Validation PSNR: 34.2189
+Epoch 16:  e2dsr_canny PSNR: 32.0748, Validation PSNR: 34.1800
+              e2dsr_sobel PSNR: 32.0741, Validation PSNR: 34.1443
+Epoch 17:  e2dsr_canny PSNR: 32.1301, Validation PSNR: 34.2489
+              e2dsr_sobel PSNR: 32.1314, Validation PSNR: 34.2430
+Epoch 18:  e2dsr_canny PSNR: 32.1407, Validation PSNR: 34.2442
+              e2dsr_sobel PSNR: 32.1425, Validation PSNR: 34.2580
+Epoch 19:  e2dsr_canny PSNR: 32.1546, Validation PSNR: 34.2226
+              e2dsr_sobel PSNR: 32.1567, Validation PSNR: 34.2482
+Epoch 20:  e2dsr_canny PSNR: 32.1606, Validation PSNR: 34.2128
+              e2dsr_sobel PSNR: 32.1625, Validation PSNR: 34.2309
+Epoch 21:  e2dsr_canny PSNR: 32.1575, Validation PSNR: 34.2266
+              e2dsr_sobel PSNR: 32.1594, Validation PSNR: 34.2443
+Epoch 22:  e2dsr_canny PSNR: 32.1602, Validation PSNR: 34.2471
+              e2dsr_sobel PSNR: 32.1626, Validation PSNR: 34.2531
+Epoch 23:  e2dsr_canny PSNR: 32.1668, Validation PSNR: 34.2334
+              e2dsr_sobel PSNR: 32.1689, Validation PSNR: 34.2656
+Epoch 24:  e2dsr_canny PSNR: 32.1879, Validation PSNR: 34.2354
+              e2dsr_sobel PSNR: 32.1902, Validation PSNR: 34.2592
+Epoch 1:  e2dsr_canny PSNR: 26.8842, Validation PSNR: 28.8041
+              e2dsr_sobel PSNR: 26.8903, Validation PSNR: 28.8170
+Epoch 2:  e2dsr_canny PSNR: 27.7969, Validation PSNR: 29.3367
+              e2dsr_sobel PSNR: 27.8065, Validation PSNR: 29.3309
+Epoch 3:  e2dsr_canny PSNR: 27.9903, Validation PSNR: 29.5014
+              e2dsr_sobel PSNR: 27.9973, Validation PSNR: 29.3593
+Epoch 4:  e2dsr_canny PSNR: 28.1098, Validation PSNR: 29.4953
+              e2dsr_sobel PSNR: 28.1159, Validation PSNR: 29.5479
+Epoch 5:  e2dsr_canny PSNR: 28.1843, Validation PSNR: 29.5925
+              e2dsr_sobel PSNR: 28.1884, Validation PSNR: 29.6241
+Epoch 6:  e2dsr_canny PSNR: 28.2314, Validation PSNR: 29.7349
+              e2dsr_sobel PSNR: 28.2347, Validation PSNR: 29.7063
+Epoch 7:  e2dsr_canny PSNR: 28.2760, Validation PSNR: 29.6996
+              e2dsr_sobel PSNR: 28.2778, Validation PSNR: 29.7219
+Epoch 8:  e2dsr_canny PSNR: 28.3154, Validation PSNR: 29.7124
+              e2dsr_sobel PSNR: 28.3148, Validation PSNR: 29.7460
+Epoch 9:  e2dsr_canny PSNR: 28.4100, Validation PSNR: 29.8944
+              e2dsr_sobel PSNR: 28.4086, Validation PSNR: 29.8514
+Epoch 10:  e2dsr_canny PSNR: 28.4283, Validation PSNR: 29.8730
+              e2dsr_sobel PSNR: 28.4254, Validation PSNR: 29.8727
+Epoch 11:  e2dsr_canny PSNR: 28.4462, Validation PSNR: 29.8960
+              e2dsr_sobel PSNR: 28.4447, Validation PSNR: 29.8700
+Epoch 12:  e2dsr_canny PSNR: 28.4558, Validation PSNR: 29.9233
+              e2dsr_sobel PSNR: 28.4538, Validation PSNR: 29.8931
+Epoch 13:  e2dsr_canny PSNR: 28.4812, Validation PSNR: 29.9330
+              e2dsr_sobel PSNR: 28.4788, Validation PSNR: 29.8695
+Epoch 14:  e2dsr_canny PSNR: 28.4978, Validation PSNR: 29.9327
+              e2dsr_sobel PSNR: 28.4955, Validation PSNR: 29.9014
+Epoch 15:  e2dsr_canny PSNR: 28.5058, Validation PSNR: 29.9227
+              e2dsr_sobel PSNR: 28.5033, Validation PSNR: 29.9148
+Epoch 16:  e2dsr_canny PSNR: 28.5146, Validation PSNR: 29.9451
+              e2dsr_sobel PSNR: 28.5122, Validation PSNR: 29.8811
+Epoch 17:  e2dsr_canny PSNR: 28.5732, Validation PSNR: 29.9841
+              e2dsr_sobel PSNR: 28.5706, Validation PSNR: 29.9624
+Epoch 18:  e2dsr_canny PSNR: 28.5852, Validation PSNR: 29.9710
+              e2dsr_sobel PSNR: 28.5822, Validation PSNR: 29.9512
+Epoch 19:  e2dsr_canny PSNR: 28.5827, Validation PSNR: 29.9777
+              e2dsr_sobel PSNR: 28.5798, Validation PSNR: 29.9474
+Epoch 20:  e2dsr_canny PSNR: 28.5921, Validation PSNR: 29.9765
+              e2dsr_sobel PSNR: 28.5891, Validation PSNR: 29.9416
+Epoch 21:  e2dsr_canny PSNR: 28.5983, Validation PSNR: 29.9707
+              e2dsr_sobel PSNR: 28.5958, Validation PSNR: 29.9375
+Epoch 22:  e2dsr_canny PSNR: 28.6083, Validation PSNR: 29.9655
+              e2dsr_sobel PSNR: 28.6056, Validation PSNR: 29.9488
+Epoch 23:  e2dsr_canny PSNR: 28.6120, Validation PSNR: 29.9605
+              e2dsr_sobel PSNR: 28.6090, Validation PSNR: 29.9378
+Epoch 24:  e2dsr_canny PSNR: 28.6168, Validation PSNR: 29.9691
+              e2dsr_sobel PSNR: 28.6137, Validation PSNR: 29.9413
+Epoch 1:  e2dsr_canny PSNR: 25.3325, Validation PSNR: 26.7954
+              e2dsr_sobel PSNR: 25.4092, Validation PSNR: 26.8240
+Epoch 2:  e2dsr_canny PSNR: 26.1317, Validation PSNR: 27.0426
+              e2dsr_sobel PSNR: 26.1436, Validation PSNR: 27.0800
+Epoch 3:  e2dsr_canny PSNR: 26.2922, Validation PSNR: 27.2608
+              e2dsr_sobel PSNR: 26.2976, Validation PSNR: 27.2628
+Epoch 4:  e2dsr_canny PSNR: 26.3754, Validation PSNR: 27.2921
+              e2dsr_sobel PSNR: 26.3789, Validation PSNR: 27.2819
+Epoch 5:  e2dsr_canny PSNR: 26.4289, Validation PSNR: 27.4256
+              e2dsr_sobel PSNR: 26.4349, Validation PSNR: 27.4313
+Epoch 6:  e2dsr_canny PSNR: 26.4802, Validation PSNR: 27.4745
+              e2dsr_sobel PSNR: 26.4840, Validation PSNR: 27.5056
+Epoch 7:  e2dsr_canny PSNR: 26.5168, Validation PSNR: 27.4378
+              e2dsr_sobel PSNR: 26.5205, Validation PSNR: 27.4431
+Epoch 8:  e2dsr_canny PSNR: 26.5391, Validation PSNR: 27.5060
+              e2dsr_sobel PSNR: 26.5446, Validation PSNR: 27.4302
+Epoch 9:  e2dsr_canny PSNR: 26.6314, Validation PSNR: 27.5737
+              e2dsr_sobel PSNR: 26.6355, Validation PSNR: 27.5546
+Epoch 10:  e2dsr_canny PSNR: 26.6570, Validation PSNR: 27.5476
+              e2dsr_sobel PSNR: 26.6621, Validation PSNR: 27.5782
+Epoch 11:  e2dsr_canny PSNR: 26.6728, Validation PSNR: 27.5763
+              e2dsr_sobel PSNR: 26.6776, Validation PSNR: 27.6062
+Epoch 12:  e2dsr_canny PSNR: 26.6850, Validation PSNR: 27.5539
+              e2dsr_sobel PSNR: 26.6912, Validation PSNR: 27.5672
+Epoch 13:  e2dsr_canny PSNR: 26.6937, Validation PSNR: 27.5724
+              e2dsr_sobel PSNR: 26.6995, Validation PSNR: 27.5733
+Epoch 14:  e2dsr_canny PSNR: 26.7178, Validation PSNR: 27.5522
+              e2dsr_sobel PSNR: 26.7229, Validation PSNR: 27.5582
+Epoch 15:  e2dsr_canny PSNR: 26.7247, Validation PSNR: 27.5638
+              e2dsr_sobel PSNR: 26.7300, Validation PSNR: 27.5648
+Epoch 16:  e2dsr_canny PSNR: 26.7343, Validation PSNR: 27.5734
+              e2dsr_sobel PSNR: 26.7397, Validation PSNR: 27.5813
+Epoch 17:  e2dsr_canny PSNR: 26.7834, Validation PSNR: 27.6061
+              e2dsr_sobel PSNR: 26.7891, Validation PSNR: 27.6220
+Epoch 18:  e2dsr_canny PSNR: 26.7994, Validation PSNR: 27.5791
+              e2dsr_sobel PSNR: 26.8055, Validation PSNR: 27.5892
+Epoch 19:  e2dsr_canny PSNR: 26.7995, Validation PSNR: 27.5901
+              e2dsr_sobel PSNR: 26.8053, Validation PSNR: 27.5634
+Epoch 20:  e2dsr_canny PSNR: 26.8024, Validation PSNR: 27.5776
+              e2dsr_sobel PSNR: 26.8084, Validation PSNR: 27.5920
+Epoch 21:  e2dsr_canny PSNR: 26.8169, Validation PSNR: 27.5741
+              e2dsr_sobel PSNR: 26.8232, Validation PSNR: 27.5937
+Epoch 22:  e2dsr_canny PSNR: 26.8221, Validation PSNR: 27.5741
+              e2dsr_sobel PSNR: 26.8283, Validation PSNR: 27.6044
+Epoch 23:  e2dsr_canny PSNR: 26.8264, Validation PSNR: 27.5854
+              e2dsr_sobel PSNR: 26.8322, Validation PSNR: 27.6015
+Epoch 24:  e2dsr_canny PSNR: 26.8266, Validation PSNR: 27.5612
+              e2dsr_sobel PSNR: 26.8327, Validation PSNR: 27.5908

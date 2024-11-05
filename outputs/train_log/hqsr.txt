@@ -1,0 +1,2 @@
+Epoch 1/24, Loss sobel: 0.0000, Loss canny: 0.0000, Time training: 6.8720s, PSNR sobel: 0.00 dB, PSNR canny: 0.00 dB, Val PSNR sobel: 6.10 dB, Val PSNR canny: 5.48 dB
+Epoch 2/24, Loss sobel: 0.0000, Loss canny: 0.0000, Time training: 6.2911s, PSNR sobel: 0.00 dB, PSNR canny: 0.00 dB, Val PSNR sobel: 6.10 dB, Val PSNR canny: 5.48 dB

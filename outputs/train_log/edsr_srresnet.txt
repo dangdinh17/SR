@@ -1,0 +1,198 @@
+Epoch 1:  EDSR PSNR: 29.1447, Validation PSNR: 32.0097
+              SRResNet PSNR: 23.5825, Validation PSNR: 27.6951
+Epoch 2:  EDSR PSNR: 30.5954, Validation PSNR: 32.3785
+              SRResNet PSNR: 28.4227, Validation PSNR: 29.6198
+Epoch 3:  EDSR PSNR: 30.8736, Validation PSNR: 32.7330
+              SRResNet PSNR: 29.6019, Validation PSNR: 30.8520
+Epoch 4:  EDSR PSNR: 31.0691, Validation PSNR: 33.0379
+              SRResNet PSNR: 30.1803, Validation PSNR: 31.5725
+Epoch 5:  EDSR PSNR: 31.2325, Validation PSNR: 33.2407
+              SRResNet PSNR: 30.5284, Validation PSNR: 32.5179
+Epoch 6:  EDSR PSNR: 31.3170, Validation PSNR: 33.3258
+              SRResNet PSNR: 30.7651, Validation PSNR: 32.4156
+Epoch 7:  EDSR PSNR: 31.3948, Validation PSNR: 33.5162
+              SRResNet PSNR: 30.9097, Validation PSNR: 31.9142
+Epoch 8:  EDSR PSNR: 31.4670, Validation PSNR: 33.2474
+              SRResNet PSNR: 31.0763, Validation PSNR: 33.1673
+Epoch 9:  EDSR PSNR: 31.5575, Validation PSNR: 33.6955
+              SRResNet PSNR: 31.2781, Validation PSNR: 33.3005
+Epoch 10:  EDSR PSNR: 31.5962, Validation PSNR: 33.7180
+              SRResNet PSNR: 31.3311, Validation PSNR: 33.4106
+Epoch 11:  EDSR PSNR: 31.6216, Validation PSNR: 33.7465
+              SRResNet PSNR: 31.3689, Validation PSNR: 33.4919
+Epoch 12:  EDSR PSNR: 31.6453, Validation PSNR: 33.7404
+              SRResNet PSNR: 31.4002, Validation PSNR: 33.5735
+Epoch 13:  EDSR PSNR: 31.6716, Validation PSNR: 33.7997
+              SRResNet PSNR: 31.4349, Validation PSNR: 33.6106
+Epoch 14:  EDSR PSNR: 31.6959, Validation PSNR: 33.8368
+              SRResNet PSNR: 31.4653, Validation PSNR: 33.6697
+Epoch 15:  EDSR PSNR: 31.7029, Validation PSNR: 33.7923
+              SRResNet PSNR: 31.4763, Validation PSNR: 33.6386
+Epoch 16:  EDSR PSNR: 31.7150, Validation PSNR: 33.8276
+              SRResNet PSNR: 31.4931, Validation PSNR: 33.6646
+Epoch 17:  EDSR PSNR: 31.7699, Validation PSNR: 33.8922
+              SRResNet PSNR: 31.5642, Validation PSNR: 33.6810
+Epoch 18:  EDSR PSNR: 31.7747, Validation PSNR: 33.9025
+              SRResNet PSNR: 31.5722, Validation PSNR: 33.6660
+Epoch 19:  EDSR PSNR: 31.7959, Validation PSNR: 33.9073
+              SRResNet PSNR: 31.5966, Validation PSNR: 33.7273
+Epoch 20:  EDSR PSNR: 31.7906, Validation PSNR: 33.9255
+              SRResNet PSNR: 31.5928, Validation PSNR: 33.7902
+Epoch 21:  EDSR PSNR: 31.7935, Validation PSNR: 33.9178
+              SRResNet PSNR: 31.5982, Validation PSNR: 33.7701
+Epoch 22:  EDSR PSNR: 31.8085, Validation PSNR: 33.9203
+              SRResNet PSNR: 31.6137, Validation PSNR: 33.8117
+Epoch 23:  EDSR PSNR: 31.8202, Validation PSNR: 33.9412
+              SRResNet PSNR: 31.6276, Validation PSNR: 33.7990
+Epoch 24:  EDSR PSNR: 31.8266, Validation PSNR: 33.9446
+              SRResNet PSNR: 31.6381, Validation PSNR: 33.7865
+Epoch 1:  EDSR PSNR: 0.0000, Validation PSNR: -3.0787
+              SRResNet PSNR: 0.0000, Validation PSNR: -66.4194
+Epoch 1:  EDSR PSNR: 0.0000, Validation PSNR: -0.4154
+              SRResNet PSNR: 0.0000, Validation PSNR: -68.6480
+Epoch 1:  EDSR PSNR: 0.0000, Validation PSNR: -1.5757
+              SRResNet PSNR: 0.0000, Validation PSNR: -69.1185
+Epoch 1:  EDSR PSNR: 29.1342, Validation PSNR: 31.9305
+              SRResNet PSNR: 23.6415, Validation PSNR: 26.1125
+Epoch 2:  EDSR PSNR: 30.5593, Validation PSNR: 32.3794
+              SRResNet PSNR: 28.4204, Validation PSNR: 30.9848
+Epoch 3:  EDSR PSNR: 30.8737, Validation PSNR: 32.8001
+              SRResNet PSNR: 29.6858, Validation PSNR: 27.0045
+Epoch 4:  EDSR PSNR: 31.0731, Validation PSNR: 33.0229
+              SRResNet PSNR: 30.2221, Validation PSNR: 31.8960
+Epoch 5:  EDSR PSNR: 31.2357, Validation PSNR: 33.0621
+              SRResNet PSNR: 30.6262, Validation PSNR: 29.8368
+Epoch 6:  EDSR PSNR: 31.3368, Validation PSNR: 33.4276
+              SRResNet PSNR: 30.8839, Validation PSNR: 32.3853
+Epoch 7:  EDSR PSNR: 31.4169, Validation PSNR: 33.5188
+              SRResNet PSNR: 31.0305, Validation PSNR: 32.2082
+Epoch 8:  EDSR PSNR: 31.4826, Validation PSNR: 33.5459
+              SRResNet PSNR: 30.9549, Validation PSNR: 28.5040
+Epoch 9:  EDSR PSNR: 31.5778, Validation PSNR: 33.6910
+              SRResNet PSNR: 31.2294, Validation PSNR: 22.8612
+Epoch 10:  EDSR PSNR: 31.6013, Validation PSNR: 33.7660
+              SRResNet PSNR: 31.2949, Validation PSNR: 20.3761
+Epoch 11:  EDSR PSNR: 31.6305, Validation PSNR: 33.7509
+              SRResNet PSNR: 31.3467, Validation PSNR: 25.1932
+Epoch 12:  EDSR PSNR: 31.6527, Validation PSNR: 33.8279
+              SRResNet PSNR: 31.3805, Validation PSNR: 24.6211
+Epoch 13:  EDSR PSNR: 31.6746, Validation PSNR: 33.8126
+              SRResNet PSNR: 31.4260, Validation PSNR: 16.6838
+Epoch 14:  EDSR PSNR: 31.6977, Validation PSNR: 33.8409
+              SRResNet PSNR: 31.4458, Validation PSNR: 20.2036
+Epoch 15:  EDSR PSNR: 31.7202, Validation PSNR: 33.8593
+              SRResNet PSNR: 31.2953, Validation PSNR: 20.8095
+Epoch 16:  EDSR PSNR: 31.7354, Validation PSNR: 33.8518
+              SRResNet PSNR: 31.4687, Validation PSNR: 16.3941
+Epoch 17:  EDSR PSNR: 31.7744, Validation PSNR: 33.9408
+              SRResNet PSNR: 31.5467, Validation PSNR: 21.1906
+Epoch 18:  EDSR PSNR: 31.7855, Validation PSNR: 33.9433
+              SRResNet PSNR: 31.5678, Validation PSNR: 20.5214
+Epoch 19:  EDSR PSNR: 31.7945, Validation PSNR: 33.9535
+              SRResNet PSNR: 31.5818, Validation PSNR: 21.8364
+Epoch 20:  EDSR PSNR: 31.8125, Validation PSNR: 33.9723
+              SRResNet PSNR: 31.6035, Validation PSNR: 26.4266
+Epoch 21:  EDSR PSNR: 31.8062, Validation PSNR: 33.9773
+              SRResNet PSNR: 31.6012, Validation PSNR: 13.7786
+Epoch 22:  EDSR PSNR: 31.8188, Validation PSNR: 33.9815
+              SRResNet PSNR: 31.6191, Validation PSNR: 19.9163
+Epoch 23:  EDSR PSNR: 31.8229, Validation PSNR: 33.9908
+              SRResNet PSNR: 31.6247, Validation PSNR: 26.5335
+Epoch 24:  EDSR PSNR: 31.8237, Validation PSNR: 33.9625
+              SRResNet PSNR: 31.6294, Validation PSNR: 15.9514
+Epoch 1:  EDSR PSNR: 26.8156, Validation PSNR: 28.3504
+              SRResNet PSNR: 23.0696, Validation PSNR: 25.9298
+Epoch 2:  EDSR PSNR: 27.4816, Validation PSNR: 28.7338
+              SRResNet PSNR: 25.9193, Validation PSNR: 27.1298
+Epoch 3:  EDSR PSNR: 27.6718, Validation PSNR: 28.9398
+              SRResNet PSNR: 26.5104, Validation PSNR: 27.5428
+Epoch 4:  EDSR PSNR: 27.7934, Validation PSNR: 29.1124
+              SRResNet PSNR: 26.9023, Validation PSNR: 27.8201
+Epoch 5:  EDSR PSNR: 27.8861, Validation PSNR: 29.1632
+              SRResNet PSNR: 27.1384, Validation PSNR: 26.2342
+Epoch 6:  EDSR PSNR: 27.9477, Validation PSNR: 29.3240
+              SRResNet PSNR: 27.3246, Validation PSNR: 27.5691
+Epoch 7:  EDSR PSNR: 28.0023, Validation PSNR: 29.4047
+              SRResNet PSNR: 27.4227, Validation PSNR: 28.1449
+Epoch 8:  EDSR PSNR: 28.0503, Validation PSNR: 29.4634
+              SRResNet PSNR: 27.5711, Validation PSNR: 29.0232
+Epoch 9:  EDSR PSNR: 28.1185, Validation PSNR: 29.5384
+              SRResNet PSNR: 27.7716, Validation PSNR: 27.0617
+Epoch 10:  EDSR PSNR: 28.1442, Validation PSNR: 29.5826
+              SRResNet PSNR: 27.8180, Validation PSNR: 26.7980
+Epoch 11:  EDSR PSNR: 28.1574, Validation PSNR: 29.5862
+              SRResNet PSNR: 27.8786, Validation PSNR: 9.0698
+Epoch 12:  EDSR PSNR: 28.1851, Validation PSNR: 29.5803
+              SRResNet PSNR: 27.8867, Validation PSNR: 13.0724
+Epoch 13:  EDSR PSNR: 28.1979, Validation PSNR: 29.6254
+              SRResNet PSNR: 27.9332, Validation PSNR: 15.4505
+Epoch 14:  EDSR PSNR: 28.2123, Validation PSNR: 29.6410
+              SRResNet PSNR: 27.9659, Validation PSNR: 29.3898
+Epoch 15:  EDSR PSNR: 28.2238, Validation PSNR: 29.6541
+              SRResNet PSNR: 27.9969, Validation PSNR: 28.3555
+Epoch 16:  EDSR PSNR: 28.2456, Validation PSNR: 29.6373
+              SRResNet PSNR: 27.9891, Validation PSNR: 22.0458
+Epoch 17:  EDSR PSNR: 28.2761, Validation PSNR: 29.7062
+              SRResNet PSNR: 28.0601, Validation PSNR: 25.3592
+Epoch 18:  EDSR PSNR: 28.2751, Validation PSNR: 29.6894
+              SRResNet PSNR: 28.0681, Validation PSNR: 24.3448
+Epoch 19:  EDSR PSNR: 28.2872, Validation PSNR: 29.7083
+              SRResNet PSNR: 28.0868, Validation PSNR: 18.1680
+Epoch 20:  EDSR PSNR: 28.2921, Validation PSNR: 29.7170
+              SRResNet PSNR: 28.0958, Validation PSNR: 25.7718
+Epoch 21:  EDSR PSNR: 28.2960, Validation PSNR: 29.7221
+              SRResNet PSNR: 28.1041, Validation PSNR: 24.9738
+Epoch 22:  EDSR PSNR: 28.3098, Validation PSNR: 29.7185
+              SRResNet PSNR: 28.1226, Validation PSNR: 21.7952
+Epoch 23:  EDSR PSNR: 28.3152, Validation PSNR: 29.7282
+              SRResNet PSNR: 28.1300, Validation PSNR: 18.3693
+Epoch 24:  EDSR PSNR: 28.3160, Validation PSNR: 29.7233
+              SRResNet PSNR: 28.1357, Validation PSNR: 20.3705
+Epoch 1:  EDSR PSNR: 25.1971, Validation PSNR: 26.3332
+              SRResNet PSNR: 23.4484, Validation PSNR: 24.8684
+Epoch 2:  EDSR PSNR: 25.8533, Validation PSNR: 26.6386
+              SRResNet PSNR: 25.4606, Validation PSNR: 25.8882
+Epoch 3:  EDSR PSNR: 26.0029, Validation PSNR: 26.8155
+              SRResNet PSNR: 25.7902, Validation PSNR: 25.8377
+Epoch 4:  EDSR PSNR: 26.1126, Validation PSNR: 26.9775
+              SRResNet PSNR: 25.9000, Validation PSNR: 13.2457
+Epoch 5:  EDSR PSNR: 26.1982, Validation PSNR: 27.0962
+              SRResNet PSNR: 25.9870, Validation PSNR: 26.7044
+Epoch 6:  EDSR PSNR: 26.2585, Validation PSNR: 27.1126
+              SRResNet PSNR: 26.1295, Validation PSNR: 19.5884
+Epoch 7:  EDSR PSNR: 26.3008, Validation PSNR: 27.1956
+              SRResNet PSNR: 26.2025, Validation PSNR: 20.6067
+Epoch 8:  EDSR PSNR: 26.3368, Validation PSNR: 27.2661
+              SRResNet PSNR: 26.2216, Validation PSNR: 21.0245
+Epoch 9:  EDSR PSNR: 26.4071, Validation PSNR: 27.3171
+              SRResNet PSNR: 26.3313, Validation PSNR: 13.8802
+Epoch 10:  EDSR PSNR: 26.4102, Validation PSNR: 27.3417
+              SRResNet PSNR: 26.3539, Validation PSNR: 6.9750
+Epoch 11:  EDSR PSNR: 26.4336, Validation PSNR: 27.3536
+              SRResNet PSNR: 26.3872, Validation PSNR: 7.5652
+Epoch 12:  EDSR PSNR: 26.4444, Validation PSNR: 27.3761
+              SRResNet PSNR: 26.4091, Validation PSNR: 8.2798
+Epoch 13:  EDSR PSNR: 26.4610, Validation PSNR: 27.3672
+              SRResNet PSNR: 26.4323, Validation PSNR: 21.5069
+Epoch 14:  EDSR PSNR: 26.4785, Validation PSNR: 27.3923
+              SRResNet PSNR: 26.4556, Validation PSNR: 12.5673
+Epoch 15:  EDSR PSNR: 26.4832, Validation PSNR: 27.3841
+              SRResNet PSNR: 26.4616, Validation PSNR: 17.0954
+Epoch 16:  EDSR PSNR: 26.4992, Validation PSNR: 27.3979
+              SRResNet PSNR: 26.4793, Validation PSNR: 18.5089
+Epoch 17:  EDSR PSNR: 26.5232, Validation PSNR: 27.4256
+              SRResNet PSNR: 26.5185, Validation PSNR: 18.8890
+Epoch 18:  EDSR PSNR: 26.5278, Validation PSNR: 27.4425
+              SRResNet PSNR: 26.5297, Validation PSNR: 22.2964
+Epoch 19:  EDSR PSNR: 26.5354, Validation PSNR: 27.4603
+              SRResNet PSNR: 26.5389, Validation PSNR: 20.6883
+Epoch 20:  EDSR PSNR: 26.5501, Validation PSNR: 27.4521
+              SRResNet PSNR: 26.5573, Validation PSNR: 18.9719
+Epoch 21:  EDSR PSNR: 26.5472, Validation PSNR: 27.4436
+              SRResNet PSNR: 26.5566, Validation PSNR: 14.1994
+Epoch 22:  EDSR PSNR: 26.5569, Validation PSNR: 27.4462
+              SRResNet PSNR: 26.5687, Validation PSNR: 14.3700
+Epoch 23:  EDSR PSNR: 26.5619, Validation PSNR: 27.4463
+              SRResNet PSNR: 26.5734, Validation PSNR: 18.1360
+Epoch 24:  EDSR PSNR: 26.5615, Validation PSNR: 27.4392
+              SRResNet PSNR: 26.5759, Validation PSNR: 12.9802
