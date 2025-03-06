@@ -77,8 +77,10 @@ class HQSR(nn.Module):
             *[ResidualCatBlock(64) for _ in range(16)]
         )
         self.upsample = nn.Sequential(
-            nn.Conv2d(64, 64*scale_factor**2, kernel_size=3, stride=1, padding=1),
-            nn.PixelShuffle(scale_factor),
+            nn.Conv2d(64, 64*4, kernel_size=3, stride=1, padding=1),
+            nn.PixelShuffle(2),
+            nn.Conv2d(64, 64*4, kernel_size=3, stride=1, padding=1),
+            nn.PixelShuffle(2),
             nn.Conv2d(64, num_channels, kernel_size=3, stride=1, padding=1)
         )
         

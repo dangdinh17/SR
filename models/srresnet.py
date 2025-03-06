@@ -64,7 +64,7 @@ class SRResNet(nn.Module):
         else:
             self.upscale = nn.Sequential(
                 nn.Conv2d(in_channels=64, out_channels=64*scale**2, kernel_size=3, stride=1, padding=1, bias=False),
-                nn.PixelShuffle(2),
+                nn.PixelShuffle(scale),
                 #nn.LeakyReLU(0.2, inplace=True),
                 nn.PReLU(num_parameters=1,init=0.2),
                 

@@ -23,10 +23,18 @@ class E2DSR(nn.Module):
         self.residual_layers = nn.Sequential(
             *[ResidualBlock(64) for _ in range(16)]
         )
-        self.upsample = nn.Sequential(
-            nn.Conv2d(64, 64*scale_factor**2, kernel_size=3, stride=1, padding=1),
-            nn.PixelShuffle(scale_factor)
-        )
+        if self.scale_factor == 4:
+            self.upsample = nn.Sequential(
+                nn.Conv2d(in_channels=64, out_channels=64*4, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(2),
+                nn.Conv2d(in_channels=64, out_channels=64*4, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(2),
+            )
+        else:
+            self.upsample = nn.Sequential(
+                nn.Conv2d(in_channels=64, out_channels=64*self.scale_factor**2, kernel_size=3, stride=1, padding=1, bias=False),
+                nn.PixelShuffle(self.scale_factor),
+            )
         self.edgelayer = HQNet(self.edgechannel, self.scale_factor)
         self.out = nn.Conv2d(64, num_channels, kernel_size=3, stride=1, padding=1)
         
