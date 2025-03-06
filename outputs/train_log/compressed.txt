@@ -1,0 +1,96 @@
+Epoch 1:  cisr PSNR: 23.7593, Validation PSNR: 23.8126
+              hqsr_canny _80_220 PSNR: 24.0979, Validation PSNR: 27.6838
+Epoch 2:  cisr PSNR: 24.3205, Validation PSNR: 24.1804
+              hqsr_canny _80_220 PSNR: 24.8170, Validation PSNR: 27.9540
+Epoch 3:  cisr PSNR: 24.4720, Validation PSNR: 24.1376
+              hqsr_canny _80_220 PSNR: 25.1108, Validation PSNR: 28.1445
+Epoch 4:  cisr PSNR: 24.5719, Validation PSNR: 23.9860
+              hqsr_canny _80_220 PSNR: 25.2842, Validation PSNR: 28.2688
+Epoch 5:  cisr PSNR: 24.6460, Validation PSNR: 24.0365
+              hqsr_canny _80_220 PSNR: 25.4087, Validation PSNR: 28.4156
+Epoch 6:  cisr PSNR: 24.6989, Validation PSNR: 23.8755
+              hqsr_canny _80_220 PSNR: 25.4970, Validation PSNR: 28.3983
+Epoch 7:  cisr PSNR: 24.7288, Validation PSNR: 23.7727
+              hqsr_canny _80_220 PSNR: 25.5511, Validation PSNR: 28.4174
+Epoch 8:  cisr PSNR: 24.7648, Validation PSNR: 23.7390
+              hqsr_canny _80_220 PSNR: 25.6092, Validation PSNR: 28.3941
+Epoch 9:  cisr PSNR: 24.8026, Validation PSNR: 23.4314
+              hqsr_canny _80_220 PSNR: 25.7020, Validation PSNR: 28.5109
+Epoch 10:  cisr PSNR: 24.8091, Validation PSNR: 23.3934
+              hqsr_canny _80_220 PSNR: 25.7200, Validation PSNR: 28.4894
+Epoch 11:  cisr PSNR: 24.8262, Validation PSNR: 23.3096
+              hqsr_canny _80_220 PSNR: 25.7464, Validation PSNR: 28.4506
+Epoch 12:  cisr PSNR: 24.8339, Validation PSNR: 23.1230
+              hqsr_canny _80_220 PSNR: 25.7625, Validation PSNR: 28.5127
+Epoch 13:  cisr PSNR: 24.8433, Validation PSNR: 23.1195
+              hqsr_canny _80_220 PSNR: 25.7794, Validation PSNR: 28.5089
+Epoch 14:  cisr PSNR: 24.8554, Validation PSNR: 23.0801
+              hqsr_canny _80_220 PSNR: 25.7962, Validation PSNR: 28.5311
+Epoch 15:  cisr PSNR: 24.8624, Validation PSNR: 23.0405
+              hqsr_canny _80_220 PSNR: 25.8094, Validation PSNR: 28.5484
+Epoch 16:  cisr PSNR: 24.8680, Validation PSNR: 22.9466
+              hqsr_canny _80_220 PSNR: 25.8214, Validation PSNR: 28.5321
+Epoch 17:  cisr PSNR: 24.8767, Validation PSNR: 22.8651
+              hqsr_canny _80_220 PSNR: 25.8599, Validation PSNR: 28.5768
+Epoch 18:  cisr PSNR: 24.8903, Validation PSNR: 22.7639
+              hqsr_canny _80_220 PSNR: 25.8758, Validation PSNR: 28.5658
+Epoch 19:  cisr PSNR: 24.8910, Validation PSNR: 22.7172
+              hqsr_canny _80_220 PSNR: 25.8806, Validation PSNR: 28.5965
+Epoch 20:  cisr PSNR: 24.8946, Validation PSNR: 22.6558
+              hqsr_canny _80_220 PSNR: 25.8890, Validation PSNR: 28.5505
+Epoch 21:  cisr PSNR: 24.9065, Validation PSNR: 22.5663
+              hqsr_canny _80_220 PSNR: 25.8976, Validation PSNR: 28.5931
+Epoch 22:  cisr PSNR: 24.9076, Validation PSNR: 22.5143
+              hqsr_canny _80_220 PSNR: 25.9048, Validation PSNR: 28.5763
+Epoch 23:  cisr PSNR: 24.9053, Validation PSNR: 22.5059
+              hqsr_canny _80_220 PSNR: 25.9058, Validation PSNR: 28.5750
+Epoch 24:  cisr PSNR: 24.9081, Validation PSNR: 22.4873
+              hqsr_canny _80_220 PSNR: 25.9053, Validation PSNR: 28.5838
+Epoch 1:  hqsr_canny1 _100_220 PSNR: 24.0585, Validation PSNR: 27.7122
+              hqsr_canny2 _80_200 PSNR: 24.0450, Validation PSNR: 27.7061
+Epoch 2:  hqsr_canny1 _100_220 PSNR: 24.8113, Validation PSNR: 28.0121
+              hqsr_canny2 _80_200 PSNR: 24.7962, Validation PSNR: 28.0204
+Epoch 3:  hqsr_canny1 _100_220 PSNR: 25.0971, Validation PSNR: 28.2126
+              hqsr_canny2 _80_200 PSNR: 25.0890, Validation PSNR: 28.1985
+Epoch 4:  hqsr_canny1 _100_220 PSNR: 25.2746, Validation PSNR: 28.2523
+              hqsr_canny2 _80_200 PSNR: 25.2707, Validation PSNR: 28.2463
+Epoch 5:  hqsr_canny1 _100_220 PSNR: 25.4030, Validation PSNR: 28.3123
+              hqsr_canny2 _80_200 PSNR: 25.4001, Validation PSNR: 28.3436
+Epoch 6:  hqsr_canny1 _100_220 PSNR: 25.4896, Validation PSNR: 28.4058
+              hqsr_canny2 _80_200 PSNR: 25.4881, Validation PSNR: 28.4207
+Epoch 7:  hqsr_canny1 _100_220 PSNR: 25.5591, Validation PSNR: 28.3795
+              hqsr_canny2 _80_200 PSNR: 25.5579, Validation PSNR: 28.4141
+Epoch 8:  hqsr_canny1 _100_220 PSNR: 25.6078, Validation PSNR: 28.4026
+              hqsr_canny2 _80_200 PSNR: 25.6088, Validation PSNR: 28.4279
+Epoch 9:  hqsr_canny1 _100_220 PSNR: 25.6892, Validation PSNR: 28.4356
+              hqsr_canny2 _80_200 PSNR: 25.6923, Validation PSNR: 28.4909
+Epoch 10:  hqsr_canny1 _100_220 PSNR: 25.7168, Validation PSNR: 28.4897
+              hqsr_canny2 _80_200 PSNR: 25.7206, Validation PSNR: 28.5034
+Epoch 11:  hqsr_canny1 _100_220 PSNR: 25.7245, Validation PSNR: 28.5100
+              hqsr_canny2 _80_200 PSNR: 25.7291, Validation PSNR: 28.5053
+Epoch 12:  hqsr_canny1 _100_220 PSNR: 25.7607, Validation PSNR: 28.4760
+              hqsr_canny2 _80_200 PSNR: 25.7650, Validation PSNR: 28.4414
+Epoch 13:  hqsr_canny1 _100_220 PSNR: 25.7620, Validation PSNR: 28.4715
+              hqsr_canny2 _80_200 PSNR: 25.7671, Validation PSNR: 28.4173
+Epoch 14:  hqsr_canny1 _100_220 PSNR: 25.7876, Validation PSNR: 28.4497
+              hqsr_canny2 _80_200 PSNR: 25.7932, Validation PSNR: 28.4529
+Epoch 15:  hqsr_canny1 _100_220 PSNR: 25.7913, Validation PSNR: 28.5815
+              hqsr_canny2 _80_200 PSNR: 25.7968, Validation PSNR: 28.5652
+Epoch 16:  hqsr_canny1 _100_220 PSNR: 25.8137, Validation PSNR: 28.5489
+              hqsr_canny2 _80_200 PSNR: 25.8198, Validation PSNR: 28.5783
+Epoch 17:  hqsr_canny1 _100_220 PSNR: 25.8481, Validation PSNR: 28.5859
+              hqsr_canny2 _80_200 PSNR: 25.8545, Validation PSNR: 28.5514
+Epoch 18:  hqsr_canny1 _100_220 PSNR: 25.8520, Validation PSNR: 28.5966
+              hqsr_canny2 _80_200 PSNR: 25.8587, Validation PSNR: 28.5996
+Epoch 19:  hqsr_canny1 _100_220 PSNR: 25.8658, Validation PSNR: 28.6049
+              hqsr_canny2 _80_200 PSNR: 25.8727, Validation PSNR: 28.5869
+Epoch 20:  hqsr_canny1 _100_220 PSNR: 25.8682, Validation PSNR: 28.6148
+              hqsr_canny2 _80_200 PSNR: 25.8755, Validation PSNR: 28.6113
+Epoch 21:  hqsr_canny1 _100_220 PSNR: 25.8751, Validation PSNR: 28.5492
+              hqsr_canny2 _80_200 PSNR: 25.8821, Validation PSNR: 28.5592
+Epoch 22:  hqsr_canny1 _100_220 PSNR: 25.8866, Validation PSNR: 28.5960
+              hqsr_canny2 _80_200 PSNR: 25.8940, Validation PSNR: 28.5882
+Epoch 23:  hqsr_canny1 _100_220 PSNR: 25.8862, Validation PSNR: 28.5687
+              hqsr_canny2 _80_200 PSNR: 25.8939, Validation PSNR: 28.5624
+Epoch 24:  hqsr_canny1 _100_220 PSNR: 25.8886, Validation PSNR: 28.6137
+              hqsr_canny2 _80_200 PSNR: 25.8960, Validation PSNR: 28.5923
